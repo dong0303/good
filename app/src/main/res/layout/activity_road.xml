@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".road">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        tools:ignore="ExtraText">
+// 첫줄 건드리면 노화영
+        <TableRow
+            android:background="#734E4E">
+            <TextView
+                android:layout_margin="1dp"
+                android:text="이름"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"></TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="갯수"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"></TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="이름"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"></TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="갯수"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"></TextView>
+
+        </TableRow>
+
+        <TableRow
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="가위"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="7"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="라이터"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="8"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+        </TableRow>
+
+        <TableRow
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="쇠사슬"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="6"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="마패"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="7"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="바늘"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="7"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="접착제"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="7"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="전신 수영복"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="7"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="마늘"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="6"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="팔찌"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="6"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="망치"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="8"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="운동화"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="7"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="생라면"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="6"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="쌍안경"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="7"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="꿀"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="5"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="고무"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="7"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="십자가"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="7"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="닭"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="3"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="늑대"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="4"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="들개"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="4"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="-"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#4A493F">
+            </TextView>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:text="-"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#000000">
+            </TextView>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/road"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="470dp">
+
+    </ImageView>
+
+    </FrameLayout>
+
+</ScrollView>

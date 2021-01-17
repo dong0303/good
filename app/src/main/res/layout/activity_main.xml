@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1,2"
+    tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"
+            android:src="@drawable/itemmap" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/road"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="15dp"
+            android:text="골목길" />
+
+        <Button
+            android:id="@+id/bow"
+            android:layout_width="134dp"
+            android:layout_height="80dp"
+            android:text="양궁장"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/school"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="15dp"
+            android:text="학교" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/popular"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="15dp"
+            android:text="번화가" />
+
+        <Button
+            android:id="@+id/temple"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="15dp"
+            android:text="절" />
+
+        <Button
+            android:id="@+id/hotel"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="15dp"
+            android:text="호텔" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/river"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="15dp"
+            android:text="연못" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="15dp"
+            android:text="모래사장" />
+
+        <Button
+            android:id="@+id/forest"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="15dp"
+            android:text="숲" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/grave"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="15dp"
+            android:text="묘지" />
+
+        <Button
+            android:id="@+id/hospital"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="15dp"
+            android:text="병원" />
+
+        <Button
+            android:id="@+id/hometown"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="15dp"
+            android:text="고급 주택가" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/church"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="15dp"
+            android:text="성당" />
+
+        <Button
+            android:id="@+id/factory"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="15dp"
+            android:text="공장" />
+
+        <Button
+            android:id="@+id/harbor"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="15dp"
+            android:text="항구" />
+
+    </TableRow>
+
+        <Button
+            android:id="@+id/research"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="15dp"
+            android:text="연구소" />
+
+
+</TableLayout>
+
+</ScrollView>
